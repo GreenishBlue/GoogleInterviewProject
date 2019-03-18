@@ -1,0 +1,13 @@
+<h1 class="pets-title display-4"><a href="/">{{page_title}}</a></h1>
+<p class="pets-subtitle lead">Search for adorable, adoptable pets across our vast database!</p>
+
+<form autocomplete="off" class="input-group mb-3" action="/search" method="get">
+    <input id="search_input" class="form-control" value="{{search_data}}" placeholder="Enter query.." name="query">
+    <div class="input-group-append">
+        <button class="btn btn-primary" type="submit">Search</button>
+    </div>
+</form>
+
+<ul id="search_dropdown" class="list-group" style="display: none">
+    <li class="list-group-item"><b>No suggestions available</b></li>
+</ul>

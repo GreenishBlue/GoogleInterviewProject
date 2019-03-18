@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+    <head>
+        {% include 'head.html' %}
+    </head>
+    
+    <body>
+        <div class="container container-small">
+            {% include 'header.html' %}
+
+            <div class="card-columns">
+                {% for listing in listings %}
+                    <div class="card">
+                        {% if listing.has_photo_url() %}
+                            <img src="{{ listing.get_photo_url() }}" class="card-img-top">
+                        {% endif %}
+                        <div class="card-body">
+                            <h5 class="card-title">{{ listing.get_title() }}</h5>
+                            <p class="card-text">{{ listing.get_description() }}</p>
+                            {% if listing.has_map_url() %}
+                                <a href="{{ listing.get_map_url() }}" target="_blank" class="btn btn-primary">View on Google Maps</a>
+                            {% endif %}
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+
+            {% if listings_len == 0 %}
+                <p>No results found.. :(</p>
+            {% endif %}
+        </div>
+
+        <br>
+
+        <nav class="d-flex justify-content-center">
+            <ul class="pagination">
+                <li class="page-item {% if 1 == page_number %}disabled{% endif %}"><a class="page-link" href="{{ url_for(request.endpoint) }}?page={{page_number-1}}&query={{ query }}">Previous</a></li>
+
+                {% for p in range(1, page_max+1) %}
+                <li class="page-item {% if p == page_number %}active{% endif %}"><a class="page-link" href="{{ url_for(request.endpoint) }}?page={{ p }}&query={{ query }}">{{ p }}</a></li>
+                {% endfor %}
+                
+                <li class="page-item {% if page_max == page_number %}disabled{% endif %}"><a class="page-link" href="{{ url_for(request.endpoint) }}?page={{page_number+1}}&query={{ query }}">Next</a></li>
+            </ul>
+        </nav>
+
+        <br>
+        <br>
+
+        {% include 'scripts.html' %}
+    </body>
+</html>
