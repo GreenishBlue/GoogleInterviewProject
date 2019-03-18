@@ -19,14 +19,14 @@ Find and view data about pets!
 ### Running the server (debug mode)
 Simply execute the program like so. Uses the Flask debug server by default.
 
-`python3 main.py --db=pets.db`
+`python3 main.py`
 
 Make sure you execute in the same CWD as the ingest command, otherwise the `pets.db` won't be in the expected location.
 
 ### Extracting the data into the database
 This will likely not be required if I have included `pets.db` in the repo, however for brevity I have detailed my approach. I've written a series of scripts to actually get the information into a database. Simply execute them as follows:
 
-`python3 data_ingest.py --csv_in=pets_raw.csv --out=pets.db --geocoding`
+`python3 data_ingest.py`
 
 This will output the pets database to `pets.db`. Make sure the CWD is the root of the repo.
 
