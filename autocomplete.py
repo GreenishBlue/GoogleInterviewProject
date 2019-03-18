@@ -92,4 +92,5 @@ class AutoCompleteKeywordGenerator:
                     keywords_dict[colour.lower()] = True
                 self.keywords.append(colour.lower())
         
-        self.keywords = list(keywords_dict.keys())
+        self.keywords += list(keywords_dict.keys())
+        self.keywords.sort()

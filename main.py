@@ -39,6 +39,8 @@ def route_query():
     db = PetsDatabaseSQLite(DB_PATH)
 
     query = request.args.get('query')
+    query = query.lower()
+    
     page_number = request.args.get('page') or 1
     page_number = int(page_number)
     page_max = 1

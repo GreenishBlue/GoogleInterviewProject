@@ -17,12 +17,8 @@ DEFAULT_FLAG_FRESH = True # Database reset on run?
 DEFAULT_FLAG_DRY_RUN = False
 DEFAULT_FLAG_VERBOSE = True
 
-DEFAULT_CSV_FILENAME = "pets_raw.csv"
-DEFAULT_CSV_PATH = os.path.join(os.path.dirname(os.path.realpath(__file__)), DEFAULT_CSV_FILENAME)
-DEFAULT_DB_FILENAME = "pets.db"
-DEFAULT_DB_PATH = os.path.join(os.path.dirname(os.path.realpath(__file__)), DEFAULT_DB_FILENAME)
-DEFAULT_KEYWORDS_FILENAME = "pets_search_keywords.txt"
-DEFAULT_KEYWORDS_PATH = os.path.join(os.path.dirname(os.path.realpath(__file__)), DEFAULT_KEYWORDS_FILENAME)
+DEFAULT_CSV_PATH = "./pets_raw.csv"
+DEFAULT_DB_PATH = "./pets.db"
 
 
 """Ingests data into the SQL database."""
@@ -71,7 +67,6 @@ if __name__ == '__main__':
     parser.add_argument('--fresh', action='store_true', default=DEFAULT_FLAG_FRESH)
     parser.add_argument('--csv_in', action='store_true', default=DEFAULT_CSV_PATH)
     parser.add_argument('--out', action='store_true', default=DEFAULT_DB_PATH)
-    parser.add_argument('--keywords_out', action='store_true', default=DEFAULT_KEYWORDS_PATH)
     parser.add_argument('--dry_run', action='store_true', default=DEFAULT_FLAG_DRY_RUN)
     parser.add_argument('-v', action='store_true', default=DEFAULT_FLAG_VERBOSE)
 
@@ -83,7 +78,6 @@ if __name__ == '__main__':
     fresh = options.fresh
     csv_path = options.csv_in
     db_out_path = options.out
-    keywords_path = options.keywords_out
 
     # Connect to the database. Check flags to see if we're in test mode.
     with open(csv_path, "r") as csv_raw:
@@ -91,15 +85,6 @@ if __name__ == '__main__':
         listings_raw = data_extractor.parse_all()
 
     listings = data_extractor.to_listings(listings_raw)
-
-    print("Generating keywords file")
-    keyword_gen = AutoCompleteKeywordGenerator(listings)
-    keyword_gen.generate_all()
-    keyword_string = keyword_gen.to_string()
-
-    with open(keywords_path, "w") as keywords_file:
-        keywords_file.write(keyword_string)
-        keywords_file.close()
 
     # Establish a connection to the database.
     db = PetsDatabaseSQLite(db_path=db_out_path, fresh=fresh, debug=verbose)

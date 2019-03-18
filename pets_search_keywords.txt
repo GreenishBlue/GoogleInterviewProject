@@ -1,232 +1,239 @@
-golden retriever
-samoyed
-evee
-english springer spaniel
-lily
-domestic shorthair
-oscar
-domestic mediumhair
-bernard
-turkish van
-emmett
-shiba inu
-jackson/jax
-russian blue
-hernie
-american shorthair
-moxie
-flat coat retriever
-loki
-pit bull
-pritten
-shelly
-miniature pinscher
-coco
-pekingese
-cooper
-pug
-american wirehair
-charlie
-labrador retriever
-sky
-corah
-maine coon
-mako
-ragdoll
-sophie
-shih tzu
-german shepherd
-domestic longhair
-theo
-pomeranian
-murphy
-balee
-miniature poodle
-chihuahua - long haired
-white kitty
-mel
-persian
-boo
-ozzie
-gromit
-robert
-rough collie
-summit
-quincy
-sparky
-american pit bull terrier
-appolo
-angel
-hunter
-beagle
-yukidama
-turkish angora
-bonk
-sugar
-aslan
-maltese
-toy poodle
-rottweiler
-australian shepherd
-biff
-brittany
-tennessee
-brodie
-chihuahua - smooth coated
-sootie
-rust
-dachshund - long-haired
-rosie
-german shepherd/mix
-gemma
-mimi
-bombay
-miniature schnauzer
-doc holliday
-gosha
-siamese
-stubby
-egyptian mau
-fiyero
-yorkshire terrier
-bob
-cardigan welsh corgi
-mia
-penny
-sulu
-ekko
-standard schnauzer
-buddy
-princess
-cody
-pinky
-whippet
-doki
-cornelius
-ralph
-tigger
-sweetman
-miss kitty
-frankie
-moby
-norma
-oly
-obie
-liam
-cutie
-atty
-kingsly
-chicken
-cloud
-sh - small himalayan
-lacey
-vera
-kiki
-lilly
-petal
-border collie/mix
-cassidy
-mason
-rambo
-domestic mediumhair/siamese
-baley
-lulu
-missy
-chow chow/akita
-buster
-labrador retriever/mix
-jack
-juno
-siberian husky
-labrador retriever/pit bull
-shadow
-smoky
-gingerbread
-pug/mix
-lisa
-clyde
-pit bull/labrador retriever
-siamese/mix
-frannie
-cocker spaniel
-gertie
-domestic shorthair/siamese
-grandma
-bon jovi
-bobby
-sir charles
-spencer
-pit bull/boxer
-mischief
-dempsey
-chow chow
-stoney
-ash
-miniature poodle/mix
-russell
-lhasa apso/mix
-cream
-chip
-yorkshire terrier/mix
-tyler
-reuben
-miniature schnauzer/miniature poodle
-papillon
-alley
-dancer
-rascal
-star
-jones
-donut
-brussels griffon
-bear
-australian shepherd/chesapeke bay retriever
-pit bull/mix
-melvin
-fuego
-carlos
-smokey
-arlo
-killian
-elvira
-pookie
-chihuahua shorthair mix
-labrador retriever mix
-domestic shorthair mix
-pit bull mix
-jack russell terrier mix
-shih tzu mix
-australian cattle dog mix
-chihuahua shorthair/labrador retriever
-black mouth cur mix
-german shepherd mix
-domestic longhair mix
-yorkshire terrier mix
-toy poodle mix
-norwich terrier mix
-golden retriever mix
-norfolk terrier mix
-beagle mix
-australian cattle dog
-border collie mix
-chihuahua longhair/pomeranian
-rottweiler mix
-havanese mix
 alaskan husky mix
-dachshund mix
-miniature schnauzer mix
-dachshund/chihuahua shorthair
-border collie/labrador retriever
-boxer
-dachshund/rat terrier
-miniature poodle/cocker spaniel
-chihuahua longhair mix
-chihuahua shorthair/miniature pinscher
+alley
+american pit bull terrier
+american shorthair
 american shorthair mix
 american staffordshire terrier mix
-basset hound/irish wolfhound
-miniature poodle mix
-manx mix
-great pyrenees/plott hound
-rat terrier mix
+american wirehair
+angel
+appolo
+arlo
+ash
+aslan
+atty
+australian cattle dog
+australian cattle dog mix
+australian shepherd
 australian shepherd mix
+australian shepherd/chesapeke bay retriever
+balee
+baley
+basset hound/irish wolfhound
+beagle
+beagle mix
+bear
+bernard
+biff
+black mouth cur mix
+bob
+bobby
+bombay
+bon jovi
+bonk
+boo
+border collie mix
+border collie/labrador retriever
+border collie/mix
+boxer
+brittany
+brodie
+brussels griffon
+buddy
+buster
+cardigan welsh corgi
+carlos
+cassidy
+charlie
+chicken
+chihuahua - long haired
+chihuahua - smooth coated
+chihuahua longhair mix
+chihuahua longhair/pomeranian
+chihuahua shorthair mix
+chihuahua shorthair/labrador retriever
+chihuahua shorthair/miniature pinscher
+chip
+chow chow
+chow chow/akita
+cloud
+clyde
+cocker spaniel
+coco
+cody
+cooper
+corah
+cornelius
+cream
+cutie
+dachshund - long-haired
+dachshund mix
+dachshund/chihuahua shorthair
+dachshund/rat terrier
+dancer
+dempsey
+doc holliday
+doki
+domestic longhair
+domestic longhair mix
+domestic mediumhair
+domestic mediumhair/siamese
+domestic shorthair
+domestic shorthair mix
+domestic shorthair/siamese
+donut
+egyptian mau
+ekko
+elvira
+emmett
+english springer spaniel
+evee
+fiyero
+flat coat retriever
+frankie
+frannie
+fuego
+gemma
+german shepherd
+german shepherd mix
+german shepherd/mix
+gertie
+gingerbread
+golden retriever
+golden retriever mix
+gosha
+grandma
+great pyrenees/plott hound
+gromit
+havanese mix
+hernie
+hunter
+jack
+jack russell terrier mix
+jackson/jax
+jones
+juno
+kiki
+killian
+kingsly
+labrador retriever
+labrador retriever mix
+labrador retriever/mix
+labrador retriever/pit bull
+lacey
+lhasa apso/mix
+liam
+lilly
+lily
+lisa
+loki
+lulu
+maine coon
+mako
+maltese
+manx mix
+mason
+mel
+melvin
+mia
+mimi
+miniature pinscher
+miniature poodle
+miniature poodle mix
+miniature poodle/cocker spaniel
+miniature poodle/mix
+miniature schnauzer
+miniature schnauzer mix
+miniature schnauzer/miniature poodle
+mischief
+miss kitty
+missy
+moby
+moxie
+murphy
+norfolk terrier mix
+norma
+norwich terrier mix
+obie
+oly
+oscar
+ozzie
+papillon
+pekingese
+penny
+persian
+petal
+pinky
+pit bull
+pit bull mix
+pit bull/boxer
+pit bull/labrador retriever
+pit bull/mix
+pomeranian
+pookie
+princess
+pritten
+pug
+pug/mix
+quincy
+ragdoll
+ralph
+rambo
+rascal
+rat terrier mix
+reuben
+robert
+rosie
+rottweiler
+rottweiler mix
+rough collie
+russell
+russian blue
+rust
+sh - small himalayan
+samoyed
+shadow
+shelly
+shiba inu
+shih tzu
+shih tzu mix
+siamese
+siamese/mix
+siberian husky
+sir charles
+sky
+smokey
+smoky
+sootie
+sophie
+sparky
+spencer
+standard schnauzer
+star
+stoney
+stubby
+sugar
+sulu
+summit
+sweetman
+tennessee
+theo
+tigger
+toy poodle
+toy poodle mix
+turkish angora
+turkish van
+tyler
+vera
+whippet
+white kitty
+yorkshire terrier
+yorkshire terrier mix
+yorkshire terrier/mix
+yukidama
+boy
+cat
+dog
+female
+girl
+male
+rabbit
