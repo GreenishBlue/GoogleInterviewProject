@@ -1,5 +1,3 @@
-Flask
-wikipedia
+flask
 geocoder
-unsplash
 sqlalchemy
